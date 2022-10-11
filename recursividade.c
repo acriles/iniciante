@@ -48,3 +48,9 @@ int div(int a,int b){
 if(a<b)return 0;
 return 1+div(a-b,b);
 }
+
+//funcao soma digitos
+int somadig(int a){
+if(a%10==a)return a;
+return somadig(a/10)+a%10;
+}
