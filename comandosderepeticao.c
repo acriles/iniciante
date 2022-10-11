@@ -29,3 +29,20 @@ i++;
 } while (i<=a && i<=b);
 return m;
 }
+
+//funcao decrescente 
+ int decrescente(int n){
+ while(n>=0){
+ printf("%d",n);
+ n--;
+   }
+ }
+
+//funcao crescente 
+int crescente(int n){
+ int i;
+for(i=0;i<=n;i++){
+printf("%d",i);
+  }
+}
+
